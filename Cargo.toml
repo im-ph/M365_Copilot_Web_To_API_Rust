@@ -1,0 +1,29 @@
+[package]
+name = "m365-copilot-openai-proxy"
+version = "0.1.0"
+description = "OpenAI-compatible shim for Microsoft 365 Copilot Chat (Rust rewrite)"
+license = "Apache-2.0"
+edition = "2024"
+
+[dependencies]
+axum = "0.8"
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tokio-tungstenite = { version = "0.24", features = ["native-tls"] }
+futures-util = "0.3"
+url = "2"
+clap = { version = "4", features = ["derive"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+uuid = { version = "1", features = ["v4"] }
+base64 = "0.22"
+chrono = { version = "0.4", features = ["serde"] }
+regex = "1"
+lazy_static = "1"
+glob = "0.3"
+tokio-stream = "0.1"
+dirs = "6"
+thiserror = "2"
+anyhow = "1"
+dotenvy = "0.15"
