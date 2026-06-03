@@ -1,4 +1,4 @@
-# M365 Copilot OpenAI Proxy — Rust 版
+# M365 Copilot Proxy — Rust 版
 
 将 Microsoft 365 Copilot Chat 的私有 SignalR/WebSocket 协议翻译为 OpenAI / Anthropic 标准 API 格式的本地 HTTP 代理服务器。
 
